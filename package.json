@@ -1,0 +1,15 @@
+{
+  "name": "universal-react-example",
+  "version": "0.0.0",
+  "description": "An example of a universal app built with React.",
+  "author": "Mark <mark@remarkablemark.org>",
+  "scripts": {},
+  "keywords": [
+    "universal react",
+    "isomorphic react"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true,
+  "license": "MIT"
+}
