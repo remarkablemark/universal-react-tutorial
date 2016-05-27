@@ -1,8 +1,13 @@
 var express = require('express');
 var app = express();
+var React = require('react');
+var ReactDOMServer = require('react-dom/server');
+var Component = require('./Component.jsx');
 
 app.get('/', function(request, response) {
-    var html = '<h1>Hello World!</h1>';
+    var html = ReactDOMServer.renderToString(
+        React.createElement(Component)
+    );
     response.send(html);
 });
 
