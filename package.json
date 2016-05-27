@@ -3,12 +3,17 @@
   "version": "0.0.0",
   "description": "An example of a universal app built with React.",
   "author": "Mark <mark@remarkablemark.org>",
-  "scripts": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
   "keywords": [
     "universal react",
     "isomorphic react"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.4",
+  },
   "devDependencies": {},
   "private": true,
   "license": "MIT"
