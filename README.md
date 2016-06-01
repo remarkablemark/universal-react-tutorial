@@ -24,6 +24,12 @@ $ npm start
 $ git checkout v1
 ```
 
+2. [Building a universal/isomorphic app with React.js](http://b.remarkabl.org/1XKYMqp)
+
+```sh
+$ git checkout v2
+```
+
 ### License
 
 MIT
