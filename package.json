@@ -4,7 +4,7 @@
   "description": "A tutorial of building a universal web app with React.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
-    "start": "node server.js"
+    "start": "webpack && node server.js"
   },
   "main": "server.js",
   "keywords": [
