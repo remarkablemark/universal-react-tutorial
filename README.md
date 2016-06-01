@@ -1,12 +1,12 @@
-# Universal React Example
+# Universal React Tutorial
 
-An example of a universal app built with React.
+A tutorial on building a universal web app with React.
 
 ### Install
 
 ```sh
-$ git clone https://github.com/remarkablemark/universal-react-example.git # or download zip
-$ cd universal-react-example
+$ git clone https://github.com/remarkablemark/universal-react-tutorial.git
+$ cd universal-react-tutorial
 $ npm install
 ```
 
