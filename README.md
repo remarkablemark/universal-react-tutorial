@@ -18,14 +18,12 @@ $ npm start
 
 ### Lesson Plan
 
-1. [Server-side rendering with React.js](http://b.remarkabl.org/1TIalfC)
-
+[Server-side rendering with React.js](http://b.remarkabl.org/1TIalfC)
 ```sh
 $ git checkout v1
 ```
 
-2. [Building a universal/isomorphic app with React.js](http://b.remarkabl.org/1XKYMqp)
-
+[Building a universal/isomorphic app with React.js](http://b.remarkabl.org/1XKYMqp)
 ```sh
 $ git checkout v2
 ```
