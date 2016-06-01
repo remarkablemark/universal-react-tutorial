@@ -17,6 +17,7 @@ module.exports = React.createClass({
                         <p>Isn't server-side rendering remarkable?</p>
                         <button onClick={this._handleClick}>Click Me</button>
                     </div>
+                    <script src='/bundle.js' />
                 </body>
             </html>
         );
