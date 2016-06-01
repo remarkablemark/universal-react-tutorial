@@ -1,7 +1,7 @@
 {
-  "name": "universal-react-example",
+  "name": "universal-react-tutorial",
   "version": "0.0.0",
-  "description": "An example of a universal app built with React.",
+  "description": "A tutorial of building a universal web app with React.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "start": "node server.js"
@@ -9,9 +9,12 @@
   "main": "server.js",
   "keywords": [
     "universal react",
-    "isomorphic react"
+    "isomorphic react",
+    "react server-side rendering"
   ],
   "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.5.0",
     "babel-register": "^6.9.0",
     "express": "^4.13.4",
