@@ -7,7 +7,7 @@ router.get('*', function(request, response) {
     var props = { title: 'Universal React' };
     ReactRouter.match({
         routes: (
-            <ReactRouter.Router>
+            <ReactRouter.Router history={ReactRouter.browserHistory}>
                 <ReactRouter.Route path='/' component={require('../Component.jsx')}>
                 </ReactRouter.Route>
             </ReactRouter.Router>
@@ -16,7 +16,11 @@ router.get('*', function(request, response) {
     }, function(error, redirectLocation, renderProps) {
         if (renderProps) {
             var html = ReactDOMServer.renderToString(
-                <ReactRouter.RouterContext {...renderProps} />
+                <ReactRouter.RouterContext {...renderProps}
+                    createElement={function(Component, renderProps) {
+                        return <Component {...renderProps} {...props} />;
+                    }}
+                />
             );
             response.send(html);
         } else {
