@@ -46,6 +46,13 @@ $ git checkout v4
 $ npm start
 ```
 
+[5. Client-side routing with react-router](https://b.remarkabl.org/2faLHsH):
+
+```sh
+$ git checkout v5
+$ npm start
+```
+
 ## License
 
 [MIT](https://github.com/remarkablemark/universal-react-tutorial/blob/master/LICENSE)
