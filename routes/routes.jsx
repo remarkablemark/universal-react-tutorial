@@ -12,7 +12,7 @@ if (typeof window === 'object') {
 
 module.exports = (
     <Router history={browserHistory} createElement={createElement}>
-        <Route path='/' component={require('../Component.jsx')}>
+        <Route path='/' component={require('../views/Layout.jsx')}>
         </Route>
     </Router>
 );

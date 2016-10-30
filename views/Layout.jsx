@@ -1,6 +1,7 @@
 var React = require('react');
 
 module.exports = React.createClass({
+    displayName: 'Layout',
     _handleClick: function() {
         alert();
     },
@@ -15,6 +16,7 @@ module.exports = React.createClass({
                     <h1>{this.props.title}</h1>
                     <p>Isn't server-side rendering remarkable?</p>
                     <button onClick={this._handleClick}>Click Me</button>
+                    {this.props.children}
                     <script dangerouslySetInnerHTML={{
                         __html: 'window.PROPS=' + JSON.stringify(this.props)
                     }} />
