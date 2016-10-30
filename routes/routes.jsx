@@ -6,7 +6,7 @@ var browserHistory = ReactRouter.browserHistory;
 
 if (typeof window === 'object') {
     function createElement(Component, props) {
-        return <Component {...props} {...window.PROPS} />;
+        return <Component {...props} custom={window.PROPS} />;
     }
 }
 
