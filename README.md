@@ -46,10 +46,17 @@ $ git checkout v4
 $ npm start
 ```
 
-[5. Client-side routing with react-router](https://b.remarkabl.org/2faLHsH):
+[5. Client-side routing with react-router (Part 1)](https://b.remarkabl.org/2faLHsH):
 
 ```sh
 $ git checkout v5
+$ npm start
+```
+
+[6. Client-side routing with react-router (Part 2)](https://b.remarkabl.org/2fOOWn7):
+
+```sh
+$ git checkout v6
 $ npm start
 ```
 
