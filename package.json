@@ -5,6 +5,7 @@
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "start": "webpack && node server.js",
+    "watch:webpack": "webpack -w",
     "watch:server": "nodemon --ext js,jsx --ignore public/ server.js"
   },
   "main": "server.js",
