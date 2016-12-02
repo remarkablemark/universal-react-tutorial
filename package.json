@@ -4,7 +4,8 @@
   "description": "A tutorial on building a universal React web application.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
-    "start": "webpack && node server.js"
+    "start": "webpack && node server.js",
+    "watch:server": "nodemon --ext js,jsx --ignore public/ server.js"
   },
   "main": "server.js",
   "keywords": [
@@ -24,7 +25,9 @@
     "react-router": "^2.8.1",
     "webpack": "^1.13.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "private": true,
   "license": "MIT"
 }
