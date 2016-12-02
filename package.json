@@ -1,16 +1,17 @@
 {
   "name": "universal-react-tutorial",
   "version": "0.0.0",
-  "description": "A tutorial of building a universal web app with React.",
+  "description": "A tutorial on building a universal React web application.",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "start": "webpack && node server.js"
   },
   "main": "server.js",
   "keywords": [
-    "universal react",
-    "isomorphic react",
-    "react server-side rendering"
+    "universal",
+    "isomorphic",
+    "react",
+    "tutorial"
   ],
   "dependencies": {
     "babel-core": "^6.9.0",
