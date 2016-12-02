@@ -5,6 +5,7 @@
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "start": "webpack && node server.js",
+    "dev": "npm-run-all --parallel watch:*",
     "watch:webpack": "webpack -w",
     "watch:server": "nodemon --ext js,jsx --ignore public/ server.js"
   },
@@ -27,7 +28,8 @@
     "webpack": "^1.13.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "npm-run-all": "^3.1.2"
   },
   "private": true,
   "license": "MIT"
