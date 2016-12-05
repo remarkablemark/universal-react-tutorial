@@ -1,8 +1,8 @@
 var React = require('react');
 var Link = require('react-router').Link;
+var connect = require('react-redux').connect;
 
-module.exports = React.createClass({
-    displayName: 'Layout',
+var Layout = React.createClass({
     _handleClick: function() {
         alert();
     },
@@ -36,3 +36,11 @@ module.exports = React.createClass({
         );
     }
 });
+
+var wrapper = connect(
+    function(state) {
+        return { custom: state };
+    }
+);
+
+module.exports = wrapper(Layout);
