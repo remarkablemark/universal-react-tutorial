@@ -7,13 +7,13 @@ The web application is built with:
 - [Express](https://b.remarkabl.org/1WhuaOl)
 - [React](https://b.remarkabl.org/24739fL)
 - [ReactRouter](https://b.remarkabl.org/2dhSEVJ)
+- [Redux](https://b.remarkabl.org/2gU9dHt) and [ReactRedux](https://b.remarkabl.org/2gBtLbs)
 
-## Installation
+## Download
 
 ```sh
 $ git clone https://github.com/remarkablemark/universal-react-tutorial.git
 $ cd universal-react-tutorial
-$ npm install
 ```
 
 ## Tutorials
@@ -22,6 +22,7 @@ $ npm install
 
 ```sh
 $ git checkout v1
+$ npm install
 $ npm start
 ```
 
@@ -29,6 +30,7 @@ $ npm start
 
 ```sh
 $ git checkout v2
+$ npm install
 $ npm start
 ```
 
@@ -36,6 +38,7 @@ $ npm start
 
 ```sh
 $ git checkout v3
+$ npm install
 $ npm start
 ```
 
@@ -43,6 +46,7 @@ $ npm start
 
 ```sh
 $ git checkout v4
+$ npm install
 $ npm start
 ```
 
@@ -50,6 +54,7 @@ $ npm start
 
 ```sh
 $ git checkout v5
+$ npm install
 $ npm start
 ```
 
@@ -57,6 +62,15 @@ $ npm start
 
 ```sh
 $ git checkout v6
+$ npm install
+$ npm start
+```
+
+[7. Universal rendering with React and Redux](https://b.remarkabl.org/2hybtYR):
+
+```sh
+$ git checkout v7
+$ npm install
 $ npm start
 ```
 
