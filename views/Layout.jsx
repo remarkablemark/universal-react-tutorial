@@ -1,5 +1,5 @@
 var React = require('react');
-var Link = require('react-router').Link;
+var Link = require('react-router-dom').Link;
 var connect = require('react-redux').connect;
 
 var Layout = React.createClass({
