@@ -20,7 +20,13 @@ router.get('*', function(request, response) {
         </Provider>
     );
 
-    response.send(html);
+    if (context.status >= 400) {
+        response.status(context.status).send(html);
+    } else if (context.url) {
+        response.redirect(context.status, context.url);
+    } else {
+        response.send(html);
+    }
 });
 
 module.exports = router;

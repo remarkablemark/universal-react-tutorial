@@ -7,5 +7,6 @@ module.exports = (
     <Layout>
         <Route exact path='/' component={require('./Index.jsx')} />
         <Route path='/about' component={require('./About.jsx')} />
+        <Route component={require('./NotFound.jsx')} />
     </Layout>
 );
