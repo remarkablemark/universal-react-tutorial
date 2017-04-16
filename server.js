@@ -1,5 +1,5 @@
 require('babel-register')({
-    presets: ['react']
+    presets: ['react', 'es2015']
 });
 
 var express = require('express');
