@@ -1,15 +1,20 @@
-var React = require('react');
-var ReactRouter = require('react-router');
-var Router = ReactRouter.Router;
-var Route = ReactRouter.Route;
-var IndexRoute = ReactRouter.IndexRoute;
-var browserHistory = ReactRouter.browserHistory;
+import React from 'react';
+import {
+    Router,
+    Route,
+    IndexRoute,
+    browserHistory
+} from 'react-router';
+
+import Layout from '../views/Layout.jsx';
+import Index from '../views/Index.jsx';
+import About from '../views/About.jsx';
 
 module.exports = (
     <Router history={browserHistory}>
-        <Route path='/' component={require('../views/Layout.jsx')}>
-            <IndexRoute component={require('../views/Index.jsx')} />
-            <Route path='about' component={require('../views/About.jsx')} />
+        <Route path='/' component={Layout}>
+            <IndexRoute component={Index} />
+            <Route path='about' component={About} />
         </Route>
     </Router>
 );
