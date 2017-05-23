@@ -42,7 +42,7 @@ $ npm install
 $ npm start
 ```
 
-[4. Server-side routing with react-router](https://b.remarkabl.org/2dCiZ06):
+[4. Server-side routing with react-router@3](https://b.remarkabl.org/2dCiZ06):
 
 ```sh
 $ git checkout v4
@@ -50,7 +50,7 @@ $ npm install
 $ npm start
 ```
 
-[5. Client-side routing with react-router (Part 1)](https://b.remarkabl.org/2faLHsH):
+[5. Client-side routing with react-router@3 (Part 1)](https://b.remarkabl.org/2faLHsH):
 
 ```sh
 $ git checkout v5
@@ -58,7 +58,7 @@ $ npm install
 $ npm start
 ```
 
-[6. Client-side routing with react-router (Part 2)](https://b.remarkabl.org/2fOOWn7):
+[6. Client-side routing with react-router@3 (Part 2)](https://b.remarkabl.org/2fOOWn7):
 
 ```sh
 $ git checkout v6
@@ -70,6 +70,14 @@ $ npm start
 
 ```sh
 $ git checkout v7
+$ npm install
+$ npm start
+```
+
+[8. Refactor a React app from ES5 to ES6](https://b.remarkabl.org/2q5jl8M):
+
+```sh
+$ git checkout v8
 $ npm install
 $ npm start
 ```
