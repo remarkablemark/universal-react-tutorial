@@ -1,9 +1,12 @@
-import React from 'react';
+var React = require('react');
 
-export default function Index() {
-    return (
-        <p>
-            Current: <strong>Index</strong>
-        </p>
-    );
-}
+module.exports = React.createClass({
+    displayName: 'Index',
+    render: function() {
+        return (
+            <p>
+                Current: <strong>Index</strong>
+            </p>
+        );
+    }
+});

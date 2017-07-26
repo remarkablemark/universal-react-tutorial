@@ -1,9 +1,12 @@
-import React from 'react';
+var React = require('react');
 
-export default function About() {
-    return (
-        <p>
-            Current: <strong>About</strong>
-        </p>
-    );
-}
+module.exports = React.createClass({
+    displayName: 'About',
+    render: function() {
+        return (
+            <p>
+                Current: <strong>About</strong>
+            </p>
+        );
+    }
+});
