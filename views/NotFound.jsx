@@ -1,7 +1,7 @@
-var React = require('react');
-var Route = require('react-router-dom').Route;
+import React from 'react'
+import { Route } from 'react-router-dom'
 
-module.exports = function NotFound(props) {
+export default function NotFound(props) {
     return (
         <Route render={function(props) {
             if (props.staticContext) {

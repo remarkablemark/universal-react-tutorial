@@ -3,7 +3,7 @@ var React = require('react');
 var Redux = require('redux');
 var Provider = require('react-redux').Provider;
 var BrowserRouter = require('react-router-dom').BrowserRouter;
-var App = require('./views/app.jsx');
+var App = require('./views/App.jsx').default;
 
 function reducer(state) { return state; }
 

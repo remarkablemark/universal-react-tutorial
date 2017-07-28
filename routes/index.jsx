@@ -1,10 +1,10 @@
 var router = require('express').Router();
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
-var StaticRouter = require('react-router').StaticRouter;
+var StaticRouter = require('react-router-dom').StaticRouter;
 var Redux = require('redux');
 var Provider = require('react-redux').Provider;
-var App = require('../views/app.jsx');
+var App = require('../views/App.jsx').default;
 
 function reducer(state) { return state; }
 

@@ -1,13 +1,17 @@
-var React = require('react');
-var Link = require('react-router-dom').Link;
-var connect = require('react-redux').connect;
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-var Layout = React.createClass({
-    _handleClick: function() {
-        alert();
-    },
-    render: function() {
-        var custom = this.props.custom;
+class Layout extends React.Component {
+    constructor() {
+        super();
+        this._handleClick = this._handleClick.bind(this);
+    }
+    _handleClick() {
+        alert(this.props.custom.title);
+    }
+    render() {
+        const { custom } = this.props
         return (
             <html>
                 <head>
@@ -35,10 +39,10 @@ var Layout = React.createClass({
             </html>
         );
     }
-});
+}
 
-var wrapper = connect(
-    function(state) {
+const wrapper = connect(
+    (state) => {
         return { custom: state };
     }
 );
