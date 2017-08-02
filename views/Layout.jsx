@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 class Layout extends React.Component {
@@ -11,7 +11,7 @@ class Layout extends React.Component {
         alert(this.props.custom.title);
     }
     render() {
-        const { custom } = this.props;
+        const { custom } = this.props
         return (
             <html>
                 <head>
@@ -47,4 +47,4 @@ const wrapper = connect(
     }
 );
 
-export default wrapper(Layout);
+module.exports = wrapper(Layout);
